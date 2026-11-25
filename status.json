@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795606087,
-  "generated_at_wib": "2026-11-25T18:28:07.051934+07:00",
+  "generated_at": 1795606387,
+  "generated_at_wib": "2026-11-25T18:33:07.536925+07:00",
   "agents": [
     {
       "id": "muse",
@@ -28,14 +28,14 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605670,
+      "last_update_epoch": 1795606193,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606193,
+        "latest_round_mtime": 1795606222,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -54,14 +54,14 @@
       "id": "deepseek",
       "role": "DeepSeek",
       "role_short": "DPSK",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605768,
+      "last_update_epoch": 1795606222,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606193,
+        "latest_round_mtime": 1795606222,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -210,14 +210,14 @@
       "id": "kimi",
       "role": "Kimi",
       "role_short": "KIMI",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605752,
+      "last_update_epoch": 1795606203,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606193,
+        "latest_round_mtime": 1795606222,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -234,6 +234,27 @@
     }
   ],
   "events": [
+    {
+      "agent": "deepseek",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606222
+    },
+    {
+      "agent": "kimi",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606203
+    },
+    {
+      "agent": "neon",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606193
+    },
     {
       "agent": "glm",
       "task": "best-cooking-game-20261125-0137",
@@ -254,27 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795605768
-    },
-    {
-      "agent": "qwen",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605752
-    },
-    {
-      "agent": "tencent",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605752
-    },
-    {
-      "agent": "kimi",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605752
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 78,
     "kimi": 78
   },
-  "quota_updated_at": "2026-11-25T18:28:07.051934+07:00",
+  "quota_updated_at": "2026-11-25T18:33:07.536925+07:00",
   "quota_errors": []
 }
