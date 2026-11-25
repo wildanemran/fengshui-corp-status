@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "generated_at": 1795598803,
+  "generated_at_wib": "2026-11-25T16:26:43.856851+07:00",
+  "agents": [
+    {
+      "id": "muse",
+      "role": "Muse",
+      "role_short": "MUSE",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795585675,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": null,
+      "quota": null,
+      "quotas": null
+    },
+    {
+      "id": "neon",
+      "role": "Neon",
+      "role_short": "NEON",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795582492,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 97,
+      "quota": {
+        "percent": 97,
+        "pool": "gemini",
+        "limiting": "weekly",
+        "source": "agy /usage"
+      },
+      "quotas": 97
+    },
+    {
+      "id": "deepseek",
+      "role": "DeepSeek",
+      "role_short": "DPSK",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795557220,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 78,
+      "quota": {
+        "percent": 78,
+        "pool": "cmdc",
+        "limiting": "weekly",
+        "source": "cmdc /api/cmdc-usage"
+      },
+      "quotas": 78
+    },
+    {
+      "id": "hydrogen",
+      "role": "Hydrogen",
+      "role_short": "HYDR",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795582482,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 97,
+      "quota": {
+        "percent": 97,
+        "pool": "gemini",
+        "limiting": "weekly",
+        "source": "agy /usage"
+      },
+      "quotas": 97
+    },
+    {
+      "id": "claude",
+      "role": "Claude",
+      "role_short": "CLAU",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795542349,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 35,
+      "quota": {
+        "percent": 35,
+        "pool": "claude_gpt",
+        "limiting": "weekly",
+        "source": "agy /usage"
+      },
+      "quotas": 35
+    },
+    {
+      "id": "glm",
+      "role": "GLM",
+      "role_short": "GLM",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795583235,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 78,
+      "quota": {
+        "percent": 78,
+        "pool": "cmdc",
+        "limiting": "weekly",
+        "source": "cmdc /api/cmdc-usage"
+      },
+      "quotas": 78
+    },
+    {
+      "id": "qwen",
+      "role": "Qwen",
+      "role_short": "QWEN",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795583242,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 78,
+      "quota": {
+        "percent": 78,
+        "pool": "cmdc",
+        "limiting": "weekly",
+        "source": "cmdc /api/cmdc-usage"
+      },
+      "quotas": 78
+    },
+    {
+      "id": "tencent",
+      "role": "Tencent",
+      "role_short": "TENC",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795582485,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 78,
+      "quota": {
+        "percent": 78,
+        "pool": "cmdc",
+        "limiting": "weekly",
+        "source": "cmdc /api/cmdc-usage"
+      },
+      "quotas": 78
+    },
+    {
+      "id": "kimi",
+      "role": "Kimi",
+      "role_short": "KIMI",
+      "task_slug": "visual-pixel",
+      "task_label": "visual-pixel",
+      "status": "diam",
+      "last_update_epoch": 1795582468,
+      "progress": null,
+      "raw": {
+        "dir_mtime": 1795585675,
+        "latest_round_mtime": 1795583242,
+        "has_result": false,
+        "last_error": null,
+        "last_error_time": null,
+        "progress": null
+      },
+      "quota_percent": 78,
+      "quota": {
+        "percent": 78,
+        "pool": "cmdc",
+        "limiting": "weekly",
+        "source": "cmdc /api/cmdc-usage"
+      },
+      "quotas": 78
+    }
+  ],
+  "events": [
+    {
+      "agent": "qwen",
+      "task": "visual-pixel-kantor",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795583242
+    },
+    {
+      "agent": "glm",
+      "task": "visual-pixel-kantor",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795583235
+    },
+    {
+      "agent": "glm",
+      "task": "visual-pixel-kantor",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795582929
+    },
+    {
+      "agent": "qwen",
+      "task": "visual-pixel-kantor",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795582851
+    },
+    {
+      "agent": "muse",
+      "task": "visual-pixel-kantor",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795582751
+    },
+    {
+      "agent": "qwen",
+      "task": "visual-pixel-kantor",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795582674
+    }
+  ],
+  "quotas": {
+    "neon": 97,
+    "deepseek": 78,
+    "hydrogen": 97,
+    "claude": 35,
+    "glm": 78,
+    "qwen": 78,
+    "tencent": 78,
+    "kimi": 78
+  },
+  "quota_updated_at": "2026-11-25T16:26:43.856851+07:00",
+  "quota_errors": []
+}
