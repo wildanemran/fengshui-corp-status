@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795600388,
-  "generated_at_wib": "2026-11-25T16:53:08.952678+07:00",
+  "generated_at": 1795600689,
+  "generated_at_wib": "2026-11-25T16:58:09.927478+07:00",
   "agents": [
     {
       "id": "muse",
@@ -287,6 +287,6 @@
     "tencent": 78,
     "kimi": 78
   },
-  "quota_updated_at": "2026-11-25T16:53:08.952678+07:00",
+  "quota_updated_at": "2026-11-25T16:58:09.927478+07:00",
   "quota_errors": []
 }
