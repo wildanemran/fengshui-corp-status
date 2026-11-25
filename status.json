@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795605490,
-  "generated_at_wib": "2026-11-25T18:18:10.225668+07:00",
+  "generated_at": 1795605794,
+  "generated_at_wib": "2026-11-25T18:23:14.609678+07:00",
   "agents": [
     {
       "id": "muse",
@@ -28,40 +28,40 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795582492,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605670,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605768,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 97,
+      "quota_percent": 96,
       "quota": {
-        "percent": 97,
+        "percent": 96,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 97
+      "quotas": 96
     },
     {
       "id": "deepseek",
       "role": "DeepSeek",
       "role_short": "DPSK",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795557220,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605768,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605768,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -80,27 +80,27 @@
       "id": "hydrogen",
       "role": "Hydrogen",
       "role_short": "HYDR",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795582482,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605731,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605768,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 97,
+      "quota_percent": 96,
       "quota": {
-        "percent": 97,
+        "percent": 96,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 97
+      "quotas": 96
     },
     {
       "id": "claude",
@@ -158,14 +158,14 @@
       "id": "qwen",
       "role": "Qwen",
       "role_short": "QWEN",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795583242,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605752,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605768,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -184,14 +184,14 @@
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795582485,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605752,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605768,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -210,14 +210,14 @@
       "id": "kimi",
       "role": "Kimi",
       "role_short": "KIMI",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795582468,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605752,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605768,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,58 +235,58 @@
   ],
   "events": [
     {
-      "agent": "qwen",
-      "task": "visual-pixel-kantor",
+      "agent": "deepseek",
+      "task": "best-cooking-game-20261125-0137",
       "from": "",
       "to": "",
-      "time_epoch": 1795583242
-    },
-    {
-      "agent": "glm",
-      "task": "visual-pixel-kantor",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795583235
-    },
-    {
-      "agent": "glm",
-      "task": "visual-pixel-kantor",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795582929
+      "time_epoch": 1795605768
     },
     {
       "agent": "qwen",
-      "task": "visual-pixel-kantor",
+      "task": "best-cooking-game-20261125-0137",
       "from": "",
       "to": "",
-      "time_epoch": 1795582851
+      "time_epoch": 1795605752
     },
     {
-      "agent": "muse",
-      "task": "visual-pixel-kantor",
+      "agent": "tencent",
+      "task": "best-cooking-game-20261125-0137",
       "from": "",
       "to": "",
-      "time_epoch": 1795582751
+      "time_epoch": 1795605752
     },
     {
-      "agent": "qwen",
-      "task": "visual-pixel-kantor",
+      "agent": "kimi",
+      "task": "best-cooking-game-20261125-0137",
       "from": "",
       "to": "",
-      "time_epoch": 1795582674
+      "time_epoch": 1795605752
+    },
+    {
+      "agent": "hydrogen",
+      "task": "best-cooking-game-20261125-0137",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795605731
+    },
+    {
+      "agent": "neon",
+      "task": "best-cooking-game-20261125-0137",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795605670
     }
   ],
   "quotas": {
-    "neon": 97,
+    "neon": 96,
     "deepseek": 78,
-    "hydrogen": 97,
+    "hydrogen": 96,
     "claude": 35,
     "glm": 78,
     "qwen": 78,
     "tencent": 78,
     "kimi": 78
   },
-  "quota_updated_at": "2026-11-25T18:18:10.225668+07:00",
+  "quota_updated_at": "2026-11-25T18:23:14.609678+07:00",
   "quota_errors": []
 }
