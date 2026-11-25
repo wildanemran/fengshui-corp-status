@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795606387,
-  "generated_at_wib": "2026-11-25T18:33:07.536925+07:00",
+  "generated_at": 1795606687,
+  "generated_at_wib": "2026-11-25T18:38:07.677178+07:00",
   "agents": [
     {
       "id": "muse",
@@ -31,24 +31,24 @@
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795606193,
+      "last_update_epoch": 1795606432,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606193,
-        "latest_round_mtime": 1795606222,
+        "dir_mtime": 1795606546,
+        "latest_round_mtime": 1795606585,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -60,47 +60,47 @@
       "last_update_epoch": 1795606222,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606193,
-        "latest_round_mtime": 1795606222,
+        "dir_mtime": 1795606546,
+        "latest_round_mtime": 1795606585,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 78,
+      "quota_percent": 77,
       "quota": {
-        "percent": 78,
+        "percent": 77,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 78
+      "quotas": 77
     },
     {
       "id": "hydrogen",
       "role": "Hydrogen",
       "role_short": "HYDR",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605731,
+      "last_update_epoch": 1795606585,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606546,
+        "latest_round_mtime": 1795606585,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -145,66 +145,66 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 78,
+      "quota_percent": 77,
       "quota": {
-        "percent": 78,
+        "percent": 77,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 78
+      "quotas": 77
     },
     {
       "id": "qwen",
       "role": "Qwen",
       "role_short": "QWEN",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605865,
+      "last_update_epoch": 1795606566,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606546,
+        "latest_round_mtime": 1795606585,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 78,
+      "quota_percent": 77,
       "quota": {
-        "percent": 78,
+        "percent": 77,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 78
+      "quotas": 77
     },
     {
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605752,
+      "last_update_epoch": 1795606584,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606546,
+        "latest_round_mtime": 1795606585,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 78,
+      "quota_percent": 77,
       "quota": {
-        "percent": 78,
+        "percent": 77,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 78
+      "quotas": 77
     },
     {
       "id": "kimi",
@@ -216,24 +216,52 @@
       "last_update_epoch": 1795606203,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606193,
-        "latest_round_mtime": 1795606222,
+        "dir_mtime": 1795606546,
+        "latest_round_mtime": 1795606585,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 78,
+      "quota_percent": 77,
       "quota": {
-        "percent": 78,
+        "percent": 77,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 78
+      "quotas": 77
     }
   ],
   "events": [
+    {
+      "agent": "hydrogen",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606585
+    },
+    {
+      "agent": "tencent",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606584
+    },
+    {
+      "agent": "qwen",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606566
+    },
+    {
+      "agent": "neon",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606432
+    },
     {
       "agent": "deepseek",
       "task": "news-image-20261125",
@@ -247,46 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795606203
-    },
-    {
-      "agent": "neon",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795606193
-    },
-    {
-      "agent": "glm",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605887
-    },
-    {
-      "agent": "qwen",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605865
-    },
-    {
-      "agent": "deepseek",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605768
     }
   ],
   "quotas": {
-    "neon": 96,
-    "deepseek": 78,
-    "hydrogen": 96,
+    "neon": 95,
+    "deepseek": 77,
+    "hydrogen": 95,
     "claude": 35,
-    "glm": 78,
-    "qwen": 78,
-    "tencent": 78,
-    "kimi": 78
+    "glm": 77,
+    "qwen": 77,
+    "tencent": 77,
+    "kimi": 77
   },
-  "quota_updated_at": "2026-11-25T18:33:07.536925+07:00",
+  "quota_updated_at": "2026-11-25T18:38:07.677178+07:00",
   "quota_errors": []
 }
