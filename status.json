@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795605794,
-  "generated_at_wib": "2026-11-25T18:23:14.609678+07:00",
+  "generated_at": 1795606087,
+  "generated_at_wib": "2026-11-25T18:28:07.051934+07:00",
   "agents": [
     {
       "id": "muse",
@@ -35,7 +35,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605768,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -61,7 +61,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605768,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -87,7 +87,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605768,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -132,14 +132,14 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795583235,
+      "task_slug": "best-cooking",
+      "task_label": "best-cooking",
+      "status": "kerja",
+      "last_update_epoch": 1795605887,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795605565,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -161,11 +161,11 @@
       "task_slug": "best-cooking",
       "task_label": "best-cooking",
       "status": "kerja",
-      "last_update_epoch": 1795605752,
+      "last_update_epoch": 1795605865,
       "progress": null,
       "raw": {
         "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605768,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -191,7 +191,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605768,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -217,7 +217,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605768,
+        "latest_round_mtime": 1795605887,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -234,6 +234,20 @@
     }
   ],
   "events": [
+    {
+      "agent": "glm",
+      "task": "best-cooking-game-20261125-0137",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795605887
+    },
+    {
+      "agent": "qwen",
+      "task": "best-cooking-game-20261125-0137",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795605865
+    },
     {
       "agent": "deepseek",
       "task": "best-cooking-game-20261125-0137",
@@ -261,20 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795605752
-    },
-    {
-      "agent": "hydrogen",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605731
-    },
-    {
-      "agent": "neon",
-      "task": "best-cooking-game-20261125-0137",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795605670
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 78,
     "kimi": 78
   },
-  "quota_updated_at": "2026-11-25T18:23:14.609678+07:00",
+  "quota_updated_at": "2026-11-25T18:28:07.051934+07:00",
   "quota_errors": []
 }
