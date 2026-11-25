@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795611815,
-  "generated_at_wib": "2026-11-25T20:03:35.441988+07:00",
+  "generated_at": 1795612091,
+  "generated_at_wib": "2026-11-25T20:08:11.933251+07:00",
   "agents": [
     {
       "id": "muse",
@@ -30,7 +30,7 @@
       "role_short": "NEON",
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795606432,
       "progress": null,
       "raw": {
@@ -82,7 +82,7 @@
       "role_short": "HYDR",
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795606585,
       "progress": null,
       "raw": {
@@ -186,7 +186,7 @@
       "role_short": "TENC",
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795606584,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 76,
     "kimi": 76
   },
-  "quota_updated_at": "2026-11-25T20:03:35.441988+07:00",
+  "quota_updated_at": "2026-11-25T20:08:11.933251+07:00",
   "quota_errors": []
 }
