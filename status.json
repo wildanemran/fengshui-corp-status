@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795607290,
-  "generated_at_wib": "2026-11-25T18:48:10.674675+07:00",
+  "generated_at": 1795607588,
+  "generated_at_wib": "2026-11-25T18:53:08.457948+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "visual-pixel",
-      "task_label": "visual-pixel",
-      "status": "diam",
-      "last_update_epoch": 1795585675,
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
+      "status": "kerja",
+      "last_update_epoch": 1795607367,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795585675,
-        "latest_round_mtime": 1795583242,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -34,8 +34,8 @@
       "last_update_epoch": 1795606432,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -60,21 +60,21 @@
       "last_update_epoch": 1795606222,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 77,
+      "quota_percent": 76,
       "quota": {
-        "percent": 77,
+        "percent": 76,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 77
+      "quotas": 76
     },
     {
       "id": "hydrogen",
@@ -86,8 +86,8 @@
       "last_update_epoch": 1795606585,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -138,21 +138,21 @@
       "last_update_epoch": 1795606869,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 77,
+      "quota_percent": 76,
       "quota": {
-        "percent": 77,
+        "percent": 76,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 77
+      "quotas": 76
     },
     {
       "id": "qwen",
@@ -164,21 +164,21 @@
       "last_update_epoch": 1795607148,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 77,
+      "quota_percent": 76,
       "quota": {
-        "percent": 77,
+        "percent": 76,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 77
+      "quotas": 76
     },
     {
       "id": "tencent",
@@ -190,21 +190,21 @@
       "last_update_epoch": 1795606584,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 77,
+      "quota_percent": 76,
       "quota": {
-        "percent": 77,
+        "percent": 76,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 77
+      "quotas": 76
     },
     {
       "id": "kimi",
@@ -216,24 +216,31 @@
       "last_update_epoch": 1795606203,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606845,
-        "latest_round_mtime": 1795607148,
+        "dir_mtime": 1795607367,
+        "latest_round_mtime": 1795607339,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 77,
+      "quota_percent": 76,
       "quota": {
-        "percent": 77,
+        "percent": 76,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 77
+      "quotas": 76
     }
   ],
   "events": [
+    {
+      "agent": "muse",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795607339
+    },
     {
       "agent": "qwen",
       "task": "news-image-20261125",
@@ -268,25 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795606584
-    },
-    {
-      "agent": "qwen",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795606566
     }
   ],
   "quotas": {
     "neon": 96,
-    "deepseek": 77,
+    "deepseek": 76,
     "hydrogen": 96,
     "claude": 35,
-    "glm": 77,
-    "qwen": 77,
-    "tencent": 77,
-    "kimi": 77
+    "glm": 76,
+    "qwen": 76,
+    "tencent": 76,
+    "kimi": 76
   },
-  "quota_updated_at": "2026-11-25T18:48:10.674675+07:00",
+  "quota_updated_at": "2026-11-25T18:53:08.457948+07:00",
   "quota_errors": []
 }
