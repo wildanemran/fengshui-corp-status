@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795606687,
-  "generated_at_wib": "2026-11-25T18:38:07.677178+07:00",
+  "generated_at": 1795606995,
+  "generated_at_wib": "2026-11-25T18:43:15.046395+07:00",
   "agents": [
     {
       "id": "muse",
@@ -34,21 +34,21 @@
       "last_update_epoch": 1795606432,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606546,
-        "latest_round_mtime": 1795606585,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 96,
       "quota": {
-        "percent": 95,
+        "percent": 96,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 96
     },
     {
       "id": "deepseek",
@@ -60,8 +60,8 @@
       "last_update_epoch": 1795606222,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606546,
-        "latest_round_mtime": 1795606585,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -86,21 +86,21 @@
       "last_update_epoch": 1795606585,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606546,
-        "latest_round_mtime": 1795606585,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 96,
       "quota": {
-        "percent": 95,
+        "percent": 96,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 96
     },
     {
       "id": "claude",
@@ -132,14 +132,14 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "best-cooking",
-      "task_label": "best-cooking",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795605887,
+      "last_update_epoch": 1795606869,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795605565,
-        "latest_round_mtime": 1795605887,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -161,11 +161,11 @@
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795606566,
+      "last_update_epoch": 1795606980,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606546,
-        "latest_round_mtime": 1795606585,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -190,8 +190,8 @@
       "last_update_epoch": 1795606584,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606546,
-        "latest_round_mtime": 1795606585,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -216,8 +216,8 @@
       "last_update_epoch": 1795606203,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795606546,
-        "latest_round_mtime": 1795606585,
+        "dir_mtime": 1795606845,
+        "latest_round_mtime": 1795606980,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -234,6 +234,20 @@
     }
   ],
   "events": [
+    {
+      "agent": "glm",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606869
+    },
+    {
+      "agent": "glm",
+      "task": "news-image-20261125",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795606795
+    },
     {
       "agent": "hydrogen",
       "task": "news-image-20261125",
@@ -261,32 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795606432
-    },
-    {
-      "agent": "deepseek",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795606222
-    },
-    {
-      "agent": "kimi",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795606203
     }
   ],
   "quotas": {
-    "neon": 95,
+    "neon": 96,
     "deepseek": 77,
-    "hydrogen": 95,
+    "hydrogen": 96,
     "claude": 35,
     "glm": 77,
     "qwen": 77,
     "tencent": 77,
     "kimi": 77
   },
-  "quota_updated_at": "2026-11-25T18:38:07.677178+07:00",
+  "quota_updated_at": "2026-11-25T18:43:15.046395+07:00",
   "quota_errors": []
 }
