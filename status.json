@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795675993,
-  "generated_at_wib": "2026-11-26T13:53:13.253271+07:00",
+  "generated_at": 1795676292,
+  "generated_at_wib": "2026-11-26T13:58:12.320432+07:00",
   "agents": [
     {
       "id": "muse",
@@ -30,7 +30,7 @@
       "role_short": "NEON",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795670859,
       "progress": null,
       "raw": {
@@ -56,7 +56,7 @@
       "role_short": "DPSK",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795670786,
       "progress": null,
       "raw": {
@@ -134,7 +134,7 @@
       "role_short": "GLM",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795670780,
       "progress": null,
       "raw": {
@@ -186,7 +186,7 @@
       "role_short": "TENC",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795670796,
       "progress": null,
       "raw": {
@@ -212,7 +212,7 @@
       "role_short": "KIMI",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795670807,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 75,
     "kimi": 75
   },
-  "quota_updated_at": "2026-11-26T13:53:13.253271+07:00",
+  "quota_updated_at": "2026-11-26T13:58:12.320432+07:00",
   "quota_errors": []
 }
