@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795708689,
-  "generated_at_wib": "2026-11-26T22:58:09.066109+07:00",
+  "generated_at": 1795708990,
+  "generated_at_wib": "2026-11-26T23:03:10.704184+07:00",
   "agents": [
     {
       "id": "muse",
@@ -45,7 +45,7 @@
       "quota": {
         "percent": 99,
         "pool": "gemini",
-        "limiting": "weekly",
+        "limiting": "five_hour",
         "source": "agy /usage"
       },
       "quotas": 99
@@ -97,7 +97,7 @@
       "quota": {
         "percent": 99,
         "pool": "gemini",
-        "limiting": "weekly",
+        "limiting": "five_hour",
         "source": "agy /usage"
       },
       "quotas": 99
@@ -287,6 +287,6 @@
     "tencent": 74,
     "kimi": 74
   },
-  "quota_updated_at": "2026-11-26T22:58:09.066109+07:00",
+  "quota_updated_at": "2026-11-26T23:03:10.704184+07:00",
   "quota_errors": []
 }
