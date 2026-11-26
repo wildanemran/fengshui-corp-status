@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795716189,
-  "generated_at_wib": "2026-11-27T01:03:09.081946+07:00",
+  "generated_at": 1795716497,
+  "generated_at_wib": "2026-11-27T01:08:17.148281+07:00",
   "agents": [
     {
       "id": "muse",
@@ -30,7 +30,7 @@
       "role_short": "NEON",
       "task_slug": "belajar-manu",
       "task_label": "belajar-manu",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795710860,
       "progress": null,
       "raw": {
@@ -56,7 +56,7 @@
       "role_short": "DPSK",
       "task_slug": "belajar-manu",
       "task_label": "belajar-manu",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795710836,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 72,
     "kimi": 72
   },
-  "quota_updated_at": "2026-11-27T01:03:09.081946+07:00",
+  "quota_updated_at": "2026-11-27T01:08:17.148281+07:00",
   "quota_errors": []
 }
