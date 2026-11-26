@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795706595,
-  "generated_at_wib": "2026-11-26T22:23:15.627182+07:00",
+  "generated_at": 1795706889,
+  "generated_at_wib": "2026-11-26T22:28:09.012775+07:00",
   "agents": [
     {
       "id": "muse",
@@ -34,8 +34,8 @@
       "last_update_epoch": 1795706471,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706310,
-        "latest_round_mtime": 1795706506,
+        "dir_mtime": 1795706756,
+        "latest_round_mtime": 1795706764,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -60,21 +60,21 @@
       "last_update_epoch": 1795706506,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706310,
-        "latest_round_mtime": 1795706506,
+        "dir_mtime": 1795706756,
+        "latest_round_mtime": 1795706764,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 75,
+      "quota_percent": 74,
       "quota": {
-        "percent": 75,
+        "percent": 74,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 75
+      "quotas": 74
     },
     {
       "id": "hydrogen",
@@ -135,24 +135,24 @@
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
       "status": "kerja",
-      "last_update_epoch": 1795706464,
+      "last_update_epoch": 1795706757,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706310,
-        "latest_round_mtime": 1795706506,
+        "dir_mtime": 1795706756,
+        "latest_round_mtime": 1795706764,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 75,
+      "quota_percent": 74,
       "quota": {
-        "percent": 75,
+        "percent": 74,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 75
+      "quotas": 74
     },
     {
       "id": "qwen",
@@ -161,24 +161,24 @@
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
       "status": "kerja",
-      "last_update_epoch": 1795706496,
+      "last_update_epoch": 1795706764,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706310,
-        "latest_round_mtime": 1795706506,
+        "dir_mtime": 1795706756,
+        "latest_round_mtime": 1795706764,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 75,
+      "quota_percent": 74,
       "quota": {
-        "percent": 75,
+        "percent": 74,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 75
+      "quotas": 74
     },
     {
       "id": "tencent",
@@ -197,14 +197,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 75,
+      "quota_percent": 74,
       "quota": {
-        "percent": 75,
+        "percent": 74,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 75
+      "quotas": 74
     },
     {
       "id": "kimi",
@@ -216,24 +216,38 @@
       "last_update_epoch": 1795706452,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706310,
-        "latest_round_mtime": 1795706506,
+        "dir_mtime": 1795706756,
+        "latest_round_mtime": 1795706764,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 75,
+      "quota_percent": 74,
       "quota": {
-        "percent": 75,
+        "percent": 74,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 75
+      "quotas": 74
     }
   ],
   "events": [
+    {
+      "agent": "qwen",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706764
+    },
+    {
+      "agent": "glm",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706757
+    },
     {
       "agent": "deepseek",
       "task": "belajar-essai-pdf-01",
@@ -261,32 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795706464
-    },
-    {
-      "agent": "kimi",
-      "task": "belajar-essai-pdf-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795706452
-    },
-    {
-      "agent": "muse",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795672395
     }
   ],
   "quotas": {
     "neon": 99,
-    "deepseek": 75,
+    "deepseek": 74,
     "hydrogen": 99,
     "claude": 100,
-    "glm": 75,
-    "qwen": 75,
-    "tencent": 75,
-    "kimi": 75
+    "glm": 74,
+    "qwen": 74,
+    "tencent": 74,
+    "kimi": 74
   },
-  "quota_updated_at": "2026-11-26T22:23:15.627182+07:00",
+  "quota_updated_at": "2026-11-26T22:28:09.012775+07:00",
   "quota_errors": []
 }
