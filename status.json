@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795710492,
-  "generated_at_wib": "2026-11-26T23:28:12.172150+07:00",
+  "generated_at": 1795710788,
+  "generated_at_wib": "2026-11-26T23:33:08.313443+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "belajar-essa",
-      "task_label": "belajar-essa",
+      "task_slug": "belajar-manu",
+      "task_label": "belajar-manu",
       "status": "kerja",
-      "last_update_epoch": 1795708378,
+      "last_update_epoch": 1795710694,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706756,
-        "latest_round_mtime": 1795708378,
+        "dir_mtime": 1795710673,
+        "latest_round_mtime": 1795710694,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -41,14 +41,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 99,
+      "quota_percent": 98,
       "quota": {
-        "percent": 99,
+        "percent": 98,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 99
+      "quotas": 98
     },
     {
       "id": "deepseek",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 99,
+      "quota_percent": 98,
       "quota": {
-        "percent": 99,
+        "percent": 98,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 99
+      "quotas": 98
     },
     {
       "id": "claude",
@@ -132,14 +132,14 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "belajar-essa",
-      "task_label": "belajar-essa",
+      "task_slug": "belajar-manu",
+      "task_label": "belajar-manu",
       "status": "kerja",
-      "last_update_epoch": 1795706757,
+      "last_update_epoch": 1795710676,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706756,
-        "latest_round_mtime": 1795708378,
+        "dir_mtime": 1795710673,
+        "latest_round_mtime": 1795710694,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -210,14 +210,14 @@
       "id": "kimi",
       "role": "Kimi",
       "role_short": "KIMI",
-      "task_slug": "belajar-essa",
-      "task_label": "belajar-essa",
+      "task_slug": "belajar-manu",
+      "task_label": "belajar-manu",
       "status": "kerja",
-      "last_update_epoch": 1795706452,
+      "last_update_epoch": 1795710580,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706756,
-        "latest_round_mtime": 1795708378,
+        "dir_mtime": 1795710673,
+        "latest_round_mtime": 1795710694,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -234,6 +234,27 @@
     }
   ],
   "events": [
+    {
+      "agent": "muse",
+      "task": "belajar-manusia-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795710694
+    },
+    {
+      "agent": "glm",
+      "task": "belajar-manusia-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795710676
+    },
+    {
+      "agent": "kimi",
+      "task": "belajar-manusia-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795710580
+    },
     {
       "agent": "muse",
       "task": "belajar-essai-pdf-01",
@@ -254,39 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795706764
-    },
-    {
-      "agent": "glm",
-      "task": "belajar-essai-pdf-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795706757
-    },
-    {
-      "agent": "deepseek",
-      "task": "belajar-essai-pdf-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795706506
-    },
-    {
-      "agent": "qwen",
-      "task": "belajar-essai-pdf-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795706496
     }
   ],
   "quotas": {
-    "neon": 99,
+    "neon": 98,
     "deepseek": 74,
-    "hydrogen": 99,
+    "hydrogen": 98,
     "claude": 100,
     "glm": 74,
     "qwen": 74,
     "tencent": 74,
     "kimi": 74
   },
-  "quota_updated_at": "2026-11-26T23:28:12.172150+07:00",
+  "quota_updated_at": "2026-11-26T23:33:08.313443+07:00",
   "quota_errors": []
 }
