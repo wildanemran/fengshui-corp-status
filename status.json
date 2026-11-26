@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795670888,
-  "generated_at_wib": "2026-11-26T12:28:08.952023+07:00",
+  "generated_at": 1795671189,
+  "generated_at_wib": "2026-11-26T12:33:09.002177+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "belajar-stat",
-      "task_label": "belajar-stat",
-      "status": "diam",
-      "last_update_epoch": 1795652383,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795671146,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795652383,
-        "latest_round_mtime": 1795651987,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -35,7 +35,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795670859,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -61,33 +61,33 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795670859,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 76,
+      "quota_percent": 75,
       "quota": {
-        "percent": 76,
+        "percent": 75,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 76
+      "quotas": 75
     },
     {
       "id": "hydrogen",
       "role": "Hydrogen",
       "role_short": "HYDR",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795606585,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795670970,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -139,46 +139,46 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795670859,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 76,
+      "quota_percent": 75,
       "quota": {
-        "percent": 76,
+        "percent": 75,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 76
+      "quotas": 75
     },
     {
       "id": "qwen",
       "role": "Qwen",
       "role_short": "QWEN",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795608082,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795671056,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 76,
+      "quota_percent": 75,
       "quota": {
-        "percent": 76,
+        "percent": 75,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 76
+      "quotas": 75
     },
     {
       "id": "tencent",
@@ -191,20 +191,20 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795670859,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 76,
+      "quota_percent": 75,
       "quota": {
-        "percent": 76,
+        "percent": 75,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 76
+      "quotas": 75
     },
     {
       "id": "kimi",
@@ -217,23 +217,44 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795670859,
+        "latest_round_mtime": 1795671146,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 76,
+      "quota_percent": 75,
       "quota": {
-        "percent": 76,
+        "percent": 75,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 76
+      "quotas": 75
     }
   ],
   "events": [
+    {
+      "agent": "muse",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795671146
+    },
+    {
+      "agent": "qwen",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795671056
+    },
+    {
+      "agent": "hydrogen",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795670970
+    },
     {
       "agent": "neon",
       "task": "belajar-essai-01",
@@ -254,39 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795670796
-    },
-    {
-      "agent": "deepseek",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795670786
-    },
-    {
-      "agent": "glm",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795670780
-    },
-    {
-      "agent": "neon",
-      "task": "belajar-stats-03",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795651987
     }
   ],
   "quotas": {
     "neon": 96,
-    "deepseek": 76,
+    "deepseek": 75,
     "hydrogen": 96,
     "claude": 100,
-    "glm": 76,
-    "qwen": 76,
-    "tencent": 76,
-    "kimi": 76
+    "glm": 75,
+    "qwen": 75,
+    "tencent": 75,
+    "kimi": 75
   },
-  "quota_updated_at": "2026-11-26T12:28:08.952023+07:00",
+  "quota_updated_at": "2026-11-26T12:33:09.002177+07:00",
   "quota_errors": []
 }
