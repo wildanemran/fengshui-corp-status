@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795711091,
-  "generated_at_wib": "2026-11-26T23:38:11.994516+07:00",
+  "generated_at": 1795711392,
+  "generated_at_wib": "2026-11-26T23:43:12.710412+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,11 +10,11 @@
       "task_slug": "belajar-manu",
       "task_label": "belajar-manu",
       "status": "kerja",
-      "last_update_epoch": 1795711006,
+      "last_update_epoch": 1795711392,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711006,
-        "latest_round_mtime": 1795710860,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -34,21 +34,21 @@
       "last_update_epoch": 1795710860,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711006,
-        "latest_round_mtime": 1795710860,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -60,8 +60,8 @@
       "last_update_epoch": 1795710836,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711006,
-        "latest_round_mtime": 1795710860,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -80,27 +80,27 @@
       "id": "hydrogen",
       "role": "Hydrogen",
       "role_short": "HYDR",
-      "task_slug": "belajar-essa",
-      "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795670970,
+      "task_slug": "belajar-manu",
+      "task_label": "belajar-manu",
+      "status": "kerja",
+      "last_update_epoch": 1795711175,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795672395,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -138,8 +138,8 @@
       "last_update_epoch": 1795710676,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711006,
-        "latest_round_mtime": 1795710860,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -158,14 +158,14 @@
       "id": "qwen",
       "role": "Qwen",
       "role_short": "QWEN",
-      "task_slug": "belajar-essa",
-      "task_label": "belajar-essa",
+      "task_slug": "belajar-manu",
+      "task_label": "belajar-manu",
       "status": "kerja",
-      "last_update_epoch": 1795706764,
+      "last_update_epoch": 1795711139,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795706756,
-        "latest_round_mtime": 1795708378,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -216,8 +216,8 @@
       "last_update_epoch": 1795710580,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711006,
-        "latest_round_mtime": 1795710860,
+        "dir_mtime": 1795711392,
+        "latest_round_mtime": 1795711175,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -234,6 +234,20 @@
     }
   ],
   "events": [
+    {
+      "agent": "hydrogen",
+      "task": "belajar-manusia-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795711175
+    },
+    {
+      "agent": "qwen",
+      "task": "belajar-manusia-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795711139
+    },
     {
       "agent": "neon",
       "task": "belajar-manusia-01",
@@ -261,32 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795710676
-    },
-    {
-      "agent": "kimi",
-      "task": "belajar-manusia-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795710580
-    },
-    {
-      "agent": "muse",
-      "task": "belajar-essai-pdf-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795708378
     }
   ],
   "quotas": {
-    "neon": 96,
+    "neon": 95,
     "deepseek": 73,
-    "hydrogen": 96,
+    "hydrogen": 95,
     "claude": 100,
     "glm": 73,
     "qwen": 73,
     "tencent": 73,
     "kimi": 73
   },
-  "quota_updated_at": "2026-11-26T23:38:11.994516+07:00",
+  "quota_updated_at": "2026-11-26T23:43:12.710412+07:00",
   "quota_errors": []
 }
