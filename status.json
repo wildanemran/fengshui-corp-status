@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795706291,
-  "generated_at_wib": "2026-11-26T22:18:11.985192+07:00",
+  "generated_at": 1795706595,
+  "generated_at_wib": "2026-11-26T22:23:15.627182+07:00",
   "agents": [
     {
       "id": "muse",
@@ -30,25 +30,25 @@
       "role_short": "NEON",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795670859,
+      "status": "kerja",
+      "last_update_epoch": 1795706471,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795672395,
+        "dir_mtime": 1795706310,
+        "latest_round_mtime": 1795706506,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 100,
+      "quota_percent": 99,
       "quota": {
-        "percent": 100,
+        "percent": 99,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 100
+      "quotas": 99
     },
     {
       "id": "deepseek",
@@ -56,12 +56,12 @@
       "role_short": "DPSK",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795670786,
+      "status": "kerja",
+      "last_update_epoch": 1795706506,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795672395,
+        "dir_mtime": 1795706310,
+        "latest_round_mtime": 1795706506,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 100,
+      "quota_percent": 99,
       "quota": {
-        "percent": 100,
+        "percent": 99,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 100
+      "quotas": 99
     },
     {
       "id": "claude",
@@ -134,12 +134,12 @@
       "role_short": "GLM",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795670780,
+      "status": "kerja",
+      "last_update_epoch": 1795706464,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795672395,
+        "dir_mtime": 1795706310,
+        "latest_round_mtime": 1795706506,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -160,12 +160,12 @@
       "role_short": "QWEN",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795671056,
+      "status": "kerja",
+      "last_update_epoch": 1795706496,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795672395,
+        "dir_mtime": 1795706310,
+        "latest_round_mtime": 1795706506,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -212,12 +212,12 @@
       "role_short": "KIMI",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795670807,
+      "status": "kerja",
+      "last_update_epoch": 1795706452,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795672395,
+        "dir_mtime": 1795706310,
+        "latest_round_mtime": 1795706506,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,58 +235,58 @@
   ],
   "events": [
     {
+      "agent": "deepseek",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706506
+    },
+    {
+      "agent": "qwen",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706496
+    },
+    {
+      "agent": "neon",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706471
+    },
+    {
+      "agent": "glm",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706464
+    },
+    {
+      "agent": "kimi",
+      "task": "belajar-essai-pdf-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795706452
+    },
+    {
       "agent": "muse",
       "task": "belajar-essai-01",
       "from": "",
       "to": "",
       "time_epoch": 1795672395
-    },
-    {
-      "agent": "muse",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795671146
-    },
-    {
-      "agent": "qwen",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795671056
-    },
-    {
-      "agent": "hydrogen",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795670970
-    },
-    {
-      "agent": "neon",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795670859
-    },
-    {
-      "agent": "kimi",
-      "task": "belajar-essai-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795670807
     }
   ],
   "quotas": {
-    "neon": 100,
+    "neon": 99,
     "deepseek": 75,
-    "hydrogen": 100,
+    "hydrogen": 99,
     "claude": 100,
     "glm": 75,
     "qwen": 75,
     "tencent": 75,
     "kimi": 75
   },
-  "quota_updated_at": "2026-11-26T22:18:11.985192+07:00",
+  "quota_updated_at": "2026-11-26T22:23:15.627182+07:00",
   "quota_errors": []
 }
