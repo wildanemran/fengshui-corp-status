@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795657093,
-  "generated_at_wib": "2026-11-26T08:38:13.985732+07:00",
+  "generated_at": 1795657391,
+  "generated_at_wib": "2026-11-26T08:43:11.402839+07:00",
   "agents": [
     {
       "id": "muse",
@@ -30,7 +30,7 @@
       "role_short": "NEON",
       "task_slug": "belajar-stat",
       "task_label": "belajar-stat",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795651987,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 76,
     "kimi": 76
   },
-  "quota_updated_at": "2026-11-26T08:38:13.985732+07:00",
+  "quota_updated_at": "2026-11-26T08:43:11.402839+07:00",
   "quota_errors": []
 }
