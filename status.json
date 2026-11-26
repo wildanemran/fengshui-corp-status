@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795651397,
-  "generated_at_wib": "2026-11-26T07:03:17.597235+07:00",
+  "generated_at": 1795651691,
+  "generated_at_wib": "2026-11-26T07:08:11.498640+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795608172,
+      "task_slug": "belajar-stat",
+      "task_label": "belajar-stat",
+      "status": "kerja",
+      "last_update_epoch": 1795651690,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795651680,
+        "latest_round_mtime": 1795651690,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -28,14 +28,14 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795606432,
+      "task_slug": "belajar-stat",
+      "task_label": "belajar-stat",
+      "status": "kerja",
+      "last_update_epoch": 1795651690,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795651680,
+        "latest_round_mtime": 1795651690,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,6 +235,13 @@
   ],
   "events": [
     {
+      "agent": "neon",
+      "task": "belajar-stats-03",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795651690
+    },
+    {
       "agent": "muse",
       "task": "news-image-20261125",
       "from": "",
@@ -268,13 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795607148
-    },
-    {
-      "agent": "glm",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795606869
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 76,
     "kimi": 76
   },
-  "quota_updated_at": "2026-11-26T07:03:17.597235+07:00",
+  "quota_updated_at": "2026-11-26T07:08:11.498640+07:00",
   "quota_errors": []
 }
