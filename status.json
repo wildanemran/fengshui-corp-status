@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795670589,
-  "generated_at_wib": "2026-11-26T12:23:09.103175+07:00",
+  "generated_at": 1795670888,
+  "generated_at_wib": "2026-11-26T12:28:08.952023+07:00",
   "agents": [
     {
       "id": "muse",
@@ -28,14 +28,14 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "belajar-stat",
-      "task_label": "belajar-stat",
-      "status": "diam",
-      "last_update_epoch": 1795651987,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795670859,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795652383,
-        "latest_round_mtime": 1795651987,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795670859,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -54,14 +54,14 @@
       "id": "deepseek",
       "role": "DeepSeek",
       "role_short": "DPSK",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795606222,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795670786,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795670859,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -132,14 +132,14 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795607919,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795670780,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795670859,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -184,14 +184,14 @@
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795606584,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795670796,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795670859,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -210,14 +210,14 @@
       "id": "kimi",
       "role": "Kimi",
       "role_short": "KIMI",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795606203,
+      "task_slug": "belajar-essa",
+      "task_label": "belajar-essa",
+      "status": "kerja",
+      "last_update_epoch": 1795670807,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795608172,
-        "latest_round_mtime": 1795608172,
+        "dir_mtime": 1795670724,
+        "latest_round_mtime": 1795670859,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -236,45 +236,45 @@
   "events": [
     {
       "agent": "neon",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795670859
+    },
+    {
+      "agent": "kimi",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795670807
+    },
+    {
+      "agent": "tencent",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795670796
+    },
+    {
+      "agent": "deepseek",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795670786
+    },
+    {
+      "agent": "glm",
+      "task": "belajar-essai-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795670780
+    },
+    {
+      "agent": "neon",
       "task": "belajar-stats-03",
       "from": "",
       "to": "",
       "time_epoch": 1795651987
-    },
-    {
-      "agent": "muse",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795608172
-    },
-    {
-      "agent": "qwen",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795608082
-    },
-    {
-      "agent": "glm",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795607919
-    },
-    {
-      "agent": "muse",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795607339
-    },
-    {
-      "agent": "qwen",
-      "task": "news-image-20261125",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795607148
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 76,
     "kimi": 76
   },
-  "quota_updated_at": "2026-11-26T12:23:09.103175+07:00",
+  "quota_updated_at": "2026-11-26T12:28:08.952023+07:00",
   "quota_errors": []
 }
