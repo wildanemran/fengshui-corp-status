@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795677790,
-  "generated_at_wib": "2026-11-26T14:23:10.568358+07:00",
+  "generated_at": 1795678101,
+  "generated_at_wib": "2026-11-26T14:28:21.754481+07:00",
   "agents": [
     {
       "id": "muse",
@@ -9,7 +9,7 @@
       "role_short": "MUSE",
       "task_slug": "belajar-essa",
       "task_label": "belajar-essa",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795672395,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 75,
     "kimi": 75
   },
-  "quota_updated_at": "2026-11-26T14:23:10.568358+07:00",
+  "quota_updated_at": "2026-11-26T14:28:21.754481+07:00",
   "quota_errors": []
 }
