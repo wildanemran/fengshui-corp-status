@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795767189,
-  "generated_at_wib": "2026-11-27T15:13:09.584663+07:00",
+  "generated_at": 1795767487,
+  "generated_at_wib": "2026-11-27T15:18:07.876980+07:00",
   "agents": [
     {
       "id": "muse",
@@ -82,7 +82,7 @@
       "role_short": "HYDR",
       "task_slug": "belajar-gptz",
       "task_label": "belajar-gptz",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795761918,
       "progress": null,
       "raw": {
@@ -134,7 +134,7 @@
       "role_short": "GLM",
       "task_slug": "belajar-gptz",
       "task_label": "belajar-gptz",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795761884,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-27T15:13:09.584663+07:00",
+  "quota_updated_at": "2026-11-27T15:18:07.876980+07:00",
   "quota_errors": []
 }
