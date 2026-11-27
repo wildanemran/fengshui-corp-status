@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795738390,
-  "generated_at_wib": "2026-11-27T07:13:10.143793+07:00",
+  "generated_at": 1795738701,
+  "generated_at_wib": "2026-11-27T07:18:21.193004+07:00",
   "agents": [
     {
       "id": "muse",
@@ -34,7 +34,7 @@
       "last_update_epoch": 1795738341,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795738047,
+        "dir_mtime": 1795738609,
         "latest_round_mtime": 1795738341,
         "has_result": false,
         "last_error": null,
@@ -287,6 +287,6 @@
     "tencent": 72,
     "kimi": 72
   },
-  "quota_updated_at": "2026-11-27T07:13:10.143793+07:00",
+  "quota_updated_at": "2026-11-27T07:18:21.193004+07:00",
   "quota_errors": []
 }
