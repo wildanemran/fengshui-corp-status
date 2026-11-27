@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795809499,
-  "generated_at_wib": "2026-11-28T02:58:19.984879+07:00",
+  "generated_at": 1795809805,
+  "generated_at_wib": "2026-11-28T03:03:25.241612+07:00",
   "agents": [
     {
       "id": "muse",
@@ -9,7 +9,7 @@
       "role_short": "MUSE",
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795804204,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T02:58:19.984879+07:00",
+  "quota_updated_at": "2026-11-28T03:03:25.241612+07:00",
   "quota_errors": []
 }
