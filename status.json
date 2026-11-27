@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795799294,
-  "generated_at_wib": "2026-11-28T00:08:14.183582+07:00",
+  "generated_at": 1795799594,
+  "generated_at_wib": "2026-11-28T00:13:14.013624+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,11 +10,11 @@
       "task_slug": "flight-visua",
       "task_label": "flight-visua",
       "status": "kerja",
-      "last_update_epoch": 1795798280,
+      "last_update_epoch": 1795799326,
       "progress": null,
       "raw": {
         "dir_mtime": 1795798085,
-        "latest_round_mtime": 1795798280,
+        "latest_round_mtime": 1795799326,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -239,6 +239,13 @@
       "task": "flight-visual-01",
       "from": "",
       "to": "",
+      "time_epoch": 1795799326
+    },
+    {
+      "agent": "muse",
+      "task": "flight-visual-01",
+      "from": "",
+      "to": "",
       "time_epoch": 1795798280
     },
     {
@@ -268,13 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795761918
-    },
-    {
-      "agent": "glm",
-      "task": "belajar-gptzero-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795761884
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T00:08:14.183582+07:00",
+  "quota_updated_at": "2026-11-28T00:13:14.013624+07:00",
   "quota_errors": []
 }
