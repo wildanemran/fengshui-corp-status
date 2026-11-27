@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795806489,
-  "generated_at_wib": "2026-11-28T02:08:09.499121+07:00",
+  "generated_at": 1795806797,
+  "generated_at_wib": "2026-11-28T02:13:17.467889+07:00",
   "agents": [
     {
       "id": "muse",
@@ -108,7 +108,7 @@
       "role_short": "CLAU",
       "task_slug": "flight-shade",
       "task_label": "flight-shade",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795801253,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T02:08:09.499121+07:00",
+  "quota_updated_at": "2026-11-28T02:13:17.467889+07:00",
   "quota_errors": []
 }
