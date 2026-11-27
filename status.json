@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795750390,
-  "generated_at_wib": "2026-11-27T10:33:10.192768+07:00",
+  "generated_at": 1795750696,
+  "generated_at_wib": "2026-11-27T10:38:16.829762+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,11 +10,11 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795750330,
+      "last_update_epoch": 1795750588,
       "progress": null,
       "raw": {
         "dir_mtime": 1795750200,
-        "latest_round_mtime": 1795750392,
+        "latest_round_mtime": 1795750588,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -31,24 +31,24 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795750221,
+      "last_update_epoch": 1795750502,
       "progress": null,
       "raw": {
         "dir_mtime": 1795750200,
-        "latest_round_mtime": 1795750392,
+        "latest_round_mtime": 1795750588,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 91,
       "quota": {
-        "percent": 95,
+        "percent": 91,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 91
     },
     {
       "id": "deepseek",
@@ -67,14 +67,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 70,
+      "quota_percent": 69,
       "quota": {
-        "percent": 70,
+        "percent": 69,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 70
+      "quotas": 69
     },
     {
       "id": "hydrogen",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 91,
       "quota": {
-        "percent": 95,
+        "percent": 91,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 91
     },
     {
       "id": "claude",
@@ -132,27 +132,27 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
+      "task_slug": "best-flight-",
+      "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795750390,
+      "last_update_epoch": 1795750588,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795750389,
-        "latest_round_mtime": 1795750390,
+        "dir_mtime": 1795750200,
+        "latest_round_mtime": 1795750588,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 70,
+      "quota_percent": 69,
       "quota": {
-        "percent": 70,
+        "percent": 69,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 70
+      "quotas": 69
     },
     {
       "id": "qwen",
@@ -171,14 +171,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 70,
+      "quota_percent": 69,
       "quota": {
-        "percent": 70,
+        "percent": 69,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 70
+      "quotas": 69
     },
     {
       "id": "tencent",
@@ -191,20 +191,20 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795750200,
-        "latest_round_mtime": 1795750392,
+        "latest_round_mtime": 1795750588,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 70,
+      "quota_percent": 69,
       "quota": {
-        "percent": 70,
+        "percent": 69,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 70
+      "quotas": 69
     },
     {
       "id": "kimi",
@@ -217,23 +217,44 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795750200,
-        "latest_round_mtime": 1795750392,
+        "latest_round_mtime": 1795750588,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 70,
+      "quota_percent": 69,
       "quota": {
-        "percent": 70,
+        "percent": 69,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 70
+      "quotas": 69
     }
   ],
   "events": [
+    {
+      "agent": "glm",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795750588
+    },
+    {
+      "agent": "neon",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795750502
+    },
+    {
+      "agent": "muse",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795750467
+    },
     {
       "agent": "tencent",
       "task": "best-flight-game-20261126",
@@ -254,39 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795750351
-    },
-    {
-      "agent": "muse",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795750330
-    },
-    {
-      "agent": "kimi",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795750262
-    },
-    {
-      "agent": "tencent",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795750240
     }
   ],
   "quotas": {
-    "neon": 95,
-    "deepseek": 70,
-    "hydrogen": 95,
+    "neon": 91,
+    "deepseek": 69,
+    "hydrogen": 91,
     "claude": 100,
-    "glm": 70,
-    "qwen": 70,
-    "tencent": 70,
-    "kimi": 70
+    "glm": 69,
+    "qwen": 69,
+    "tencent": 69,
+    "kimi": 69
   },
-  "quota_updated_at": "2026-11-27T10:33:10.192768+07:00",
+  "quota_updated_at": "2026-11-27T10:38:16.829762+07:00",
   "quota_errors": []
 }
