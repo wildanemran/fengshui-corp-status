@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795760888,
-  "generated_at_wib": "2026-11-27T13:28:08.416624+07:00",
+  "generated_at": 1795761191,
+  "generated_at_wib": "2026-11-27T13:33:11.117183+07:00",
   "agents": [
     {
       "id": "muse",
@@ -35,20 +35,20 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795760785,
+        "latest_round_mtime": 1795761132,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 94,
+      "quota_percent": 95,
       "quota": {
-        "percent": 94,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 94
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -67,14 +67,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 67,
+      "quota_percent": 64,
       "quota": {
-        "percent": 67,
+        "percent": 64,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 67
+      "quotas": 64
     },
     {
       "id": "hydrogen",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 94,
+      "quota_percent": 95,
       "quota": {
-        "percent": 94,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 94
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -139,20 +139,20 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795760785,
+        "latest_round_mtime": 1795761132,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 67,
+      "quota_percent": 64,
       "quota": {
-        "percent": 67,
+        "percent": 64,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 67
+      "quotas": 64
     },
     {
       "id": "qwen",
@@ -171,69 +171,83 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 67,
+      "quota_percent": 64,
       "quota": {
-        "percent": 67,
+        "percent": 64,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 67
+      "quotas": 64
     },
     {
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "best-flight-",
-      "task_label": "best-flight-",
-      "status": "diam",
-      "last_update_epoch": 1795750392,
+      "task_slug": "belajar-gptz",
+      "task_label": "belajar-gptz",
+      "status": "kerja",
+      "last_update_epoch": 1795761132,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795759921,
+        "dir_mtime": 1795760785,
+        "latest_round_mtime": 1795761132,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 67,
+      "quota_percent": 64,
       "quota": {
-        "percent": 67,
+        "percent": 64,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 67
+      "quotas": 64
     },
     {
       "id": "kimi",
       "role": "Kimi",
       "role_short": "KIMI",
-      "task_slug": "best-flight-",
-      "task_label": "best-flight-",
-      "status": "diam",
-      "last_update_epoch": 1795750351,
+      "task_slug": "belajar-gptz",
+      "task_label": "belajar-gptz",
+      "status": "kerja",
+      "last_update_epoch": 1795761017,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795759921,
+        "dir_mtime": 1795760785,
+        "latest_round_mtime": 1795761132,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 67,
+      "quota_percent": 64,
       "quota": {
-        "percent": 67,
+        "percent": 64,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 67
+      "quotas": 64
     }
   ],
   "events": [
+    {
+      "agent": "tencent",
+      "task": "belajar-gptzero-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795761132
+    },
+    {
+      "agent": "kimi",
+      "task": "belajar-gptzero-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795761017
+    },
     {
       "agent": "glm",
       "task": "belajar-gptzero-01",
@@ -261,32 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795754614
-    },
-    {
-      "agent": "muse",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795754345
-    },
-    {
-      "agent": "muse",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795753366
     }
   ],
   "quotas": {
-    "neon": 94,
-    "deepseek": 67,
-    "hydrogen": 94,
+    "neon": 95,
+    "deepseek": 64,
+    "hydrogen": 95,
     "claude": 100,
-    "glm": 67,
-    "qwen": 67,
-    "tencent": 67,
-    "kimi": 67
+    "glm": 64,
+    "qwen": 64,
+    "tencent": 64,
+    "kimi": 64
   },
-  "quota_updated_at": "2026-11-27T13:28:08.416624+07:00",
+  "quota_updated_at": "2026-11-27T13:33:11.117183+07:00",
   "quota_errors": []
 }
