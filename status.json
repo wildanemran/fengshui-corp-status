@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795745888,
-  "generated_at_wib": "2026-11-27T09:18:08.464058+07:00",
+  "generated_at": 1795746188,
+  "generated_at_wib": "2026-11-27T09:23:08.793069+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "best-flight-",
-      "task_label": "best-flight-",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795745874,
+      "last_update_epoch": 1795746058,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795745855,
-        "latest_round_mtime": 1795745891,
+        "dir_mtime": 1795746058,
+        "latest_round_mtime": 1795746138,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -31,24 +31,24 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795745874,
+      "last_update_epoch": 1795745994,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795745855,
-        "latest_round_mtime": 1795745891,
+        "dir_mtime": 1795746062,
+        "latest_round_mtime": 1795746141,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 97,
+      "quota_percent": 95,
       "quota": {
-        "percent": 97,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 97
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -80,27 +80,27 @@
       "id": "hydrogen",
       "role": "Hydrogen",
       "role_short": "HYDR",
-      "task_slug": "belajar-manu",
-      "task_label": "belajar-manu",
-      "status": "diam",
-      "last_update_epoch": 1795711175,
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
+      "status": "kerja",
+      "last_update_epoch": 1795746114,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711465,
-        "latest_round_mtime": 1795712237,
+        "dir_mtime": 1795746058,
+        "latest_round_mtime": 1795746138,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 97,
+      "quota_percent": 95,
       "quota": {
-        "percent": 97,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 97
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -158,14 +158,14 @@
       "id": "qwen",
       "role": "Qwen",
       "role_short": "QWEN",
-      "task_slug": "belajar-manu",
-      "task_label": "belajar-manu",
-      "status": "diam",
-      "last_update_epoch": 1795711139,
+      "task_slug": "best-flight-",
+      "task_label": "best-flight-",
+      "status": "kerja",
+      "last_update_epoch": 1795746141,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711465,
-        "latest_round_mtime": 1795712237,
+        "dir_mtime": 1795746062,
+        "latest_round_mtime": 1795746141,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -184,14 +184,14 @@
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "belajar-manu",
-      "task_label": "belajar-manu",
-      "status": "diam",
-      "last_update_epoch": 1795711527,
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
+      "status": "kerja",
+      "last_update_epoch": 1795746138,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711465,
-        "latest_round_mtime": 1795712237,
+        "dir_mtime": 1795746058,
+        "latest_round_mtime": 1795746138,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -216,8 +216,8 @@
       "last_update_epoch": 1795745891,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795745855,
-        "latest_round_mtime": 1795745891,
+        "dir_mtime": 1795746062,
+        "latest_round_mtime": 1795746141,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,58 +235,58 @@
   ],
   "events": [
     {
-      "agent": "kimi",
+      "agent": "qwen",
       "task": "best-flight-game-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795745891
-    },
-    {
-      "agent": "kimi",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795745887
-    },
-    {
-      "agent": "neon",
-      "task": "belajar-defi-04",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795738341
-    },
-    {
-      "agent": "muse",
-      "task": "belajar-manusia-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795712237
-    },
-    {
-      "agent": "muse",
-      "task": "belajar-manusia-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795711918
+      "time_epoch": 1795746141
     },
     {
       "agent": "tencent",
-      "task": "belajar-manusia-01",
+      "task": "news-image-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795711527
+      "time_epoch": 1795746138
+    },
+    {
+      "agent": "qwen",
+      "task": "news-image-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746135
+    },
+    {
+      "agent": "tencent",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746121
+    },
+    {
+      "agent": "hydrogen",
+      "task": "news-image-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746114
+    },
+    {
+      "agent": "hydrogen",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746096
     }
   ],
   "quotas": {
-    "neon": 97,
+    "neon": 95,
     "deepseek": 72,
-    "hydrogen": 97,
+    "hydrogen": 95,
     "claude": 100,
     "glm": 72,
     "qwen": 72,
     "tencent": 72,
     "kimi": 72
   },
-  "quota_updated_at": "2026-11-27T09:18:08.464058+07:00",
+  "quota_updated_at": "2026-11-27T09:23:08.793069+07:00",
   "quota_errors": []
 }
