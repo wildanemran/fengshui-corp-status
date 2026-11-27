@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795750095,
-  "generated_at_wib": "2026-11-27T10:28:15.144324+07:00",
+  "generated_at": 1795750390,
+  "generated_at_wib": "2026-11-27T10:33:10.192768+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,11 +10,11 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795750039,
+      "last_update_epoch": 1795750330,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795750039,
-        "latest_round_mtime": 1795746755,
+        "dir_mtime": 1795750200,
+        "latest_round_mtime": 1795750392,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -31,24 +31,24 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795745994,
+      "last_update_epoch": 1795750221,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795750039,
-        "latest_round_mtime": 1795746755,
+        "dir_mtime": 1795750200,
+        "latest_round_mtime": 1795750392,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -86,21 +86,21 @@
       "last_update_epoch": 1795746114,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795749998,
-        "latest_round_mtime": 1795746751,
+        "dir_mtime": 1795750389,
+        "latest_round_mtime": 1795750390,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "five_hour",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -135,11 +135,11 @@
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795746679,
+      "last_update_epoch": 1795750390,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795749998,
-        "latest_round_mtime": 1795746751,
+        "dir_mtime": 1795750389,
+        "latest_round_mtime": 1795750390,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -164,8 +164,8 @@
       "last_update_epoch": 1795746618,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795749998,
-        "latest_round_mtime": 1795746751,
+        "dir_mtime": 1795750389,
+        "latest_round_mtime": 1795750390,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -184,14 +184,14 @@
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
+      "task_slug": "best-flight-",
+      "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795746138,
+      "last_update_epoch": 1795750392,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795749998,
-        "latest_round_mtime": 1795746751,
+        "dir_mtime": 1795750200,
+        "latest_round_mtime": 1795750392,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -213,11 +213,11 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795745891,
+      "last_update_epoch": 1795750351,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795750039,
-        "latest_round_mtime": 1795746755,
+        "dir_mtime": 1795750200,
+        "latest_round_mtime": 1795750392,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,58 +235,58 @@
   ],
   "events": [
     {
-      "agent": "muse",
+      "agent": "tencent",
       "task": "best-flight-game-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746755
-    },
-    {
-      "agent": "muse",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746751
+      "time_epoch": 1795750392
     },
     {
       "agent": "glm",
       "task": "news-image-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746679
+      "time_epoch": 1795750390
     },
     {
-      "agent": "glm",
+      "agent": "kimi",
       "task": "best-flight-game-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746636
+      "time_epoch": 1795750351
     },
     {
-      "agent": "qwen",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746618
-    },
-    {
-      "agent": "qwen",
+      "agent": "muse",
       "task": "best-flight-game-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746597
+      "time_epoch": 1795750330
+    },
+    {
+      "agent": "kimi",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795750262
+    },
+    {
+      "agent": "tencent",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795750240
     }
   ],
   "quotas": {
-    "neon": 96,
+    "neon": 95,
     "deepseek": 70,
-    "hydrogen": 96,
+    "hydrogen": 95,
     "claude": 100,
     "glm": 70,
     "qwen": 70,
     "tencent": 70,
     "kimi": 70
   },
-  "quota_updated_at": "2026-11-27T10:28:15.144324+07:00",
+  "quota_updated_at": "2026-11-27T10:33:10.192768+07:00",
   "quota_errors": []
 }
