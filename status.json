@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795747096,
-  "generated_at_wib": "2026-11-27T09:38:16.383543+07:00",
+  "generated_at": 1795747402,
+  "generated_at_wib": "2026-11-27T09:43:22.076919+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,10 +10,10 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795746755,
+      "last_update_epoch": 1795747229,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747229,
         "latest_round_mtime": 1795746755,
         "has_result": false,
         "last_error": null,
@@ -34,21 +34,21 @@
       "last_update_epoch": 1795745994,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747229,
         "latest_round_mtime": 1795746755,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -86,21 +86,21 @@
       "last_update_epoch": 1795746114,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747149,
         "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 96,
+      "quota_percent": 95,
       "quota": {
-        "percent": 96,
+        "percent": 95,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 96
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -138,7 +138,7 @@
       "last_update_epoch": 1795746679,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747149,
         "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
@@ -164,7 +164,7 @@
       "last_update_epoch": 1795746618,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747149,
         "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
@@ -190,7 +190,7 @@
       "last_update_epoch": 1795746138,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747149,
         "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
@@ -216,7 +216,7 @@
       "last_update_epoch": 1795745891,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746539,
+        "dir_mtime": 1795747229,
         "latest_round_mtime": 1795746755,
         "has_result": false,
         "last_error": null,
@@ -278,15 +278,15 @@
     }
   ],
   "quotas": {
-    "neon": 96,
+    "neon": 95,
     "deepseek": 70,
-    "hydrogen": 96,
+    "hydrogen": 95,
     "claude": 100,
     "glm": 70,
     "qwen": 70,
     "tencent": 70,
     "kimi": 70
   },
-  "quota_updated_at": "2026-11-27T09:38:16.383543+07:00",
+  "quota_updated_at": "2026-11-27T09:43:22.076919+07:00",
   "quota_errors": []
 }
