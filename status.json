@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795819094,
-  "generated_at_wib": "2026-11-28T05:38:14.213725+07:00",
+  "generated_at": 1795819390,
+  "generated_at_wib": "2026-11-28T05:43:10.550241+07:00",
   "agents": [
     {
       "id": "muse",
@@ -119,14 +119,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 92,
+      "quota_percent": 96,
       "quota": {
-        "percent": 92,
+        "percent": 96,
         "pool": "claude_gpt",
-        "limiting": "five_hour",
+        "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 92
+      "quotas": 96
     },
     {
       "id": "glm",
@@ -281,12 +281,12 @@
     "neon": 94,
     "deepseek": 59,
     "hydrogen": 94,
-    "claude": 92,
+    "claude": 96,
     "glm": 59,
     "qwen": 59,
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T05:38:14.213725+07:00",
+  "quota_updated_at": "2026-11-28T05:43:10.550241+07:00",
   "quota_errors": []
 }
