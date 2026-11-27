@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795746188,
-  "generated_at_wib": "2026-11-27T09:23:08.793069+07:00",
+  "generated_at": 1795746489,
+  "generated_at_wib": "2026-11-27T09:28:09.281066+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,11 +10,11 @@
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795746058,
+      "last_update_epoch": 1795746327,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746058,
-        "latest_round_mtime": 1795746138,
+        "dir_mtime": 1795746327,
+        "latest_round_mtime": 1795746328,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -34,21 +34,21 @@
       "last_update_epoch": 1795745994,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746062,
-        "latest_round_mtime": 1795746141,
+        "dir_mtime": 1795746284,
+        "latest_round_mtime": 1795746285,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 96,
       "quota": {
-        "percent": 95,
+        "percent": 96,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 96
     },
     {
       "id": "deepseek",
@@ -67,14 +67,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 72,
+      "quota_percent": 71,
       "quota": {
-        "percent": 72,
+        "percent": 71,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 72
+      "quotas": 71
     },
     {
       "id": "hydrogen",
@@ -86,21 +86,21 @@
       "last_update_epoch": 1795746114,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746058,
-        "latest_round_mtime": 1795746138,
+        "dir_mtime": 1795746327,
+        "latest_round_mtime": 1795746328,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 96,
       "quota": {
-        "percent": 95,
+        "percent": 96,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 96
     },
     {
       "id": "claude",
@@ -132,27 +132,27 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "belajar-manu",
-      "task_label": "belajar-manu",
-      "status": "diam",
-      "last_update_epoch": 1795710676,
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
+      "status": "kerja",
+      "last_update_epoch": 1795746328,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711465,
-        "latest_round_mtime": 1795712237,
+        "dir_mtime": 1795746327,
+        "latest_round_mtime": 1795746328,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 72,
+      "quota_percent": 71,
       "quota": {
-        "percent": 72,
+        "percent": 71,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 72
+      "quotas": 71
     },
     {
       "id": "qwen",
@@ -164,21 +164,21 @@
       "last_update_epoch": 1795746141,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746062,
-        "latest_round_mtime": 1795746141,
+        "dir_mtime": 1795746284,
+        "latest_round_mtime": 1795746285,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 72,
+      "quota_percent": 71,
       "quota": {
-        "percent": 72,
+        "percent": 71,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 72
+      "quotas": 71
     },
     {
       "id": "tencent",
@@ -190,21 +190,21 @@
       "last_update_epoch": 1795746138,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746058,
-        "latest_round_mtime": 1795746138,
+        "dir_mtime": 1795746327,
+        "latest_round_mtime": 1795746328,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 72,
+      "quota_percent": 71,
       "quota": {
-        "percent": 72,
+        "percent": 71,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 72
+      "quotas": 71
     },
     {
       "id": "kimi",
@@ -216,24 +216,38 @@
       "last_update_epoch": 1795745891,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746062,
-        "latest_round_mtime": 1795746141,
+        "dir_mtime": 1795746284,
+        "latest_round_mtime": 1795746285,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 72,
+      "quota_percent": 71,
       "quota": {
-        "percent": 72,
+        "percent": 71,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 72
+      "quotas": 71
     }
   ],
   "events": [
+    {
+      "agent": "glm",
+      "task": "news-image-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746328
+    },
+    {
+      "agent": "glm",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746285
+    },
     {
       "agent": "qwen",
       "task": "best-flight-game-20261126",
@@ -261,32 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795746121
-    },
-    {
-      "agent": "hydrogen",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746114
-    },
-    {
-      "agent": "hydrogen",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746096
     }
   ],
   "quotas": {
-    "neon": 95,
-    "deepseek": 72,
-    "hydrogen": 95,
+    "neon": 96,
+    "deepseek": 71,
+    "hydrogen": 96,
     "claude": 100,
-    "glm": 72,
-    "qwen": 72,
-    "tencent": 72,
-    "kimi": 72
+    "glm": 71,
+    "qwen": 71,
+    "tencent": 71,
+    "kimi": 71
   },
-  "quota_updated_at": "2026-11-27T09:23:08.793069+07:00",
+  "quota_updated_at": "2026-11-27T09:28:09.281066+07:00",
   "quota_errors": []
 }
