@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795756094,
-  "generated_at_wib": "2026-11-27T12:08:14.385846+07:00",
+  "generated_at": 1795756388,
+  "generated_at_wib": "2026-11-27T12:13:08.534717+07:00",
   "agents": [
     {
       "id": "muse",
@@ -41,14 +41,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 91,
+      "quota_percent": 95,
       "quota": {
-        "percent": 91,
+        "percent": 95,
         "pool": "gemini",
-        "limiting": "five_hour",
+        "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 91
+      "quotas": 95
     },
     {
       "id": "deepseek",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 91,
+      "quota_percent": 95,
       "quota": {
-        "percent": 91,
+        "percent": 95,
         "pool": "gemini",
-        "limiting": "five_hour",
+        "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 91
+      "quotas": 95
     },
     {
       "id": "claude",
@@ -134,7 +134,7 @@
       "role_short": "GLM",
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795750876,
       "progress": null,
       "raw": {
@@ -278,15 +278,15 @@
     }
   ],
   "quotas": {
-    "neon": 91,
+    "neon": 95,
     "deepseek": 67,
-    "hydrogen": 91,
+    "hydrogen": 95,
     "claude": 100,
     "glm": 67,
     "qwen": 67,
     "tencent": 67,
     "kimi": 67
   },
-  "quota_updated_at": "2026-11-27T12:08:14.385846+07:00",
+  "quota_updated_at": "2026-11-27T12:13:08.534717+07:00",
   "quota_errors": []
 }
