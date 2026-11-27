@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795751892,
-  "generated_at_wib": "2026-11-27T10:58:12.358565+07:00",
+  "generated_at": 1795752189,
+  "generated_at_wib": "2026-11-27T11:03:09.182267+07:00",
   "agents": [
     {
       "id": "muse",
@@ -160,7 +160,7 @@
       "role_short": "QWEN",
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795746618,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 67,
     "kimi": 67
   },
-  "quota_updated_at": "2026-11-27T10:58:12.358565+07:00",
+  "quota_updated_at": "2026-11-27T11:03:09.182267+07:00",
   "quota_errors": []
 }
