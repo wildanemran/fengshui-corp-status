@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795765699,
-  "generated_at_wib": "2026-11-27T14:48:19.869708+07:00",
+  "generated_at": 1795765989,
+  "generated_at_wib": "2026-11-27T14:53:09.282495+07:00",
   "agents": [
     {
       "id": "muse",
@@ -41,14 +41,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 94,
       "quota": {
-        "percent": 95,
+        "percent": 94,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 94
     },
     {
       "id": "deepseek",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 94,
       "quota": {
-        "percent": 95,
+        "percent": 94,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 94
     },
     {
       "id": "claude",
@@ -278,15 +278,15 @@
     }
   ],
   "quotas": {
-    "neon": 95,
+    "neon": 94,
     "deepseek": 59,
-    "hydrogen": 95,
+    "hydrogen": 94,
     "claude": 100,
     "glm": 59,
     "qwen": 59,
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-27T14:48:19.869708+07:00",
+  "quota_updated_at": "2026-11-27T14:53:09.282495+07:00",
   "quota_errors": []
 }
