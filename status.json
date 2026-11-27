@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795798189,
-  "generated_at_wib": "2026-11-27T23:49:49.083184+07:00",
+  "generated_at": 1795798403,
+  "generated_at_wib": "2026-11-27T23:53:23.203948+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "belajar-essa",
-      "task_label": "belajar-essa",
-      "status": "diam",
-      "last_update_epoch": 1795778793,
+      "task_slug": "flight-visua",
+      "task_label": "flight-visua",
+      "status": "kerja",
+      "last_update_epoch": 1795798280,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795670724,
-        "latest_round_mtime": 1795778793,
+        "dir_mtime": 1795798085,
+        "latest_round_mtime": 1795798280,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -236,6 +236,13 @@
   "events": [
     {
       "agent": "muse",
+      "task": "flight-visual-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795798280
+    },
+    {
+      "agent": "muse",
       "task": "belajar-essai-01",
       "from": "",
       "to": "",
@@ -268,13 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795761884
-    },
-    {
-      "agent": "qwen",
-      "task": "belajar-gptzero-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795761773
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-27T23:49:49.083184+07:00",
+  "quota_updated_at": "2026-11-27T23:53:23.203948+07:00",
   "quota_errors": []
 }
