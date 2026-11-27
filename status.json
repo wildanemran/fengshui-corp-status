@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795743488,
-  "generated_at_wib": "2026-11-27T08:38:08.794030+07:00",
+  "generated_at": 1795743794,
+  "generated_at_wib": "2026-11-27T08:43:14.487084+07:00",
   "agents": [
     {
       "id": "muse",
@@ -30,7 +30,7 @@
       "role_short": "NEON",
       "task_slug": "belajar-defi",
       "task_label": "belajar-defi",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795738341,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 72,
     "kimi": 72
   },
-  "quota_updated_at": "2026-11-27T08:38:08.794030+07:00",
+  "quota_updated_at": "2026-11-27T08:43:14.487084+07:00",
   "quota_errors": []
 }
