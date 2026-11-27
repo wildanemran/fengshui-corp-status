@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795746789,
-  "generated_at_wib": "2026-11-27T09:33:09.327127+07:00",
+  "generated_at": 1795747096,
+  "generated_at_wib": "2026-11-27T09:38:16.383543+07:00",
   "agents": [
     {
       "id": "muse",
@@ -67,14 +67,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 71,
+      "quota_percent": 70,
       "quota": {
-        "percent": 71,
+        "percent": 70,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 71
+      "quotas": 70
     },
     {
       "id": "hydrogen",
@@ -145,14 +145,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 71,
+      "quota_percent": 70,
       "quota": {
-        "percent": 71,
+        "percent": 70,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 71
+      "quotas": 70
     },
     {
       "id": "qwen",
@@ -171,14 +171,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 71,
+      "quota_percent": 70,
       "quota": {
-        "percent": 71,
+        "percent": 70,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 71
+      "quotas": 70
     },
     {
       "id": "tencent",
@@ -197,14 +197,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 71,
+      "quota_percent": 70,
       "quota": {
-        "percent": 71,
+        "percent": 70,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 71
+      "quotas": 70
     },
     {
       "id": "kimi",
@@ -223,14 +223,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 71,
+      "quota_percent": 70,
       "quota": {
-        "percent": 71,
+        "percent": 70,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 71
+      "quotas": 70
     }
   ],
   "events": [
@@ -279,14 +279,14 @@
   ],
   "quotas": {
     "neon": 96,
-    "deepseek": 71,
+    "deepseek": 70,
     "hydrogen": 96,
     "claude": 100,
-    "glm": 71,
-    "qwen": 71,
-    "tencent": 71,
-    "kimi": 71
+    "glm": 70,
+    "qwen": 70,
+    "tencent": 70,
+    "kimi": 70
   },
-  "quota_updated_at": "2026-11-27T09:33:09.327127+07:00",
+  "quota_updated_at": "2026-11-27T09:38:16.383543+07:00",
   "quota_errors": []
 }
