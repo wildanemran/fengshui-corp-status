@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795738093,
-  "generated_at_wib": "2026-11-27T07:08:13.098013+07:00",
+  "generated_at": 1795738390,
+  "generated_at_wib": "2026-11-27T07:13:10.143793+07:00",
   "agents": [
     {
       "id": "muse",
@@ -28,27 +28,27 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "belajar-manu",
-      "task_label": "belajar-manu",
-      "status": "diam",
-      "last_update_epoch": 1795710860,
+      "task_slug": "belajar-defi",
+      "task_label": "belajar-defi",
+      "status": "kerja",
+      "last_update_epoch": 1795738341,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711465,
-        "latest_round_mtime": 1795712237,
+        "dir_mtime": 1795738047,
+        "latest_round_mtime": 1795738341,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 98,
+      "quota_percent": 97,
       "quota": {
-        "percent": 98,
+        "percent": 97,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 98
+      "quotas": 97
     },
     {
       "id": "deepseek",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 98,
+      "quota_percent": 97,
       "quota": {
-        "percent": 98,
+        "percent": 97,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 98
+      "quotas": 97
     },
     {
       "id": "claude",
@@ -235,6 +235,13 @@
   ],
   "events": [
     {
+      "agent": "neon",
+      "task": "belajar-defi-04",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795738341
+    },
+    {
       "agent": "muse",
       "task": "belajar-manusia-01",
       "from": "",
@@ -268,25 +275,18 @@
       "from": "",
       "to": "",
       "time_epoch": 1795711139
-    },
-    {
-      "agent": "neon",
-      "task": "belajar-manusia-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795710860
     }
   ],
   "quotas": {
-    "neon": 98,
+    "neon": 97,
     "deepseek": 72,
-    "hydrogen": 98,
+    "hydrogen": 97,
     "claude": 100,
     "glm": 72,
     "qwen": 72,
     "tencent": 72,
     "kimi": 72
   },
-  "quota_updated_at": "2026-11-27T07:08:13.098013+07:00",
+  "quota_updated_at": "2026-11-27T07:13:10.143793+07:00",
   "quota_errors": []
 }
