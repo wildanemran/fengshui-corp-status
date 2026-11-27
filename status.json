@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795759688,
-  "generated_at_wib": "2026-11-27T13:08:08.691104+07:00",
+  "generated_at": 1795759989,
+  "generated_at_wib": "2026-11-27T13:13:09.205166+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,11 +10,11 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795754345,
+      "last_update_epoch": 1795759921,
       "progress": null,
       "raw": {
         "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795754345,
+        "latest_round_mtime": 1795759921,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -35,7 +35,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795754345,
+        "latest_round_mtime": 1795759921,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -139,7 +139,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795754345,
+        "latest_round_mtime": 1795759921,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -191,7 +191,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795754345,
+        "latest_round_mtime": 1795759921,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -217,7 +217,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795754345,
+        "latest_round_mtime": 1795759921,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -234,6 +234,13 @@
     }
   ],
   "events": [
+    {
+      "agent": "muse",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795759921
+    },
     {
       "agent": "qwen",
       "task": "news-image-20261126",
@@ -268,13 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795750588
-    },
-    {
-      "agent": "neon",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795750502
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 67,
     "kimi": 67
   },
-  "quota_updated_at": "2026-11-27T13:08:08.691104+07:00",
+  "quota_updated_at": "2026-11-27T13:13:09.205166+07:00",
   "quota_errors": []
 }
