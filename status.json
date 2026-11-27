@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795761191,
-  "generated_at_wib": "2026-11-27T13:33:11.117183+07:00",
+  "generated_at": 1795761500,
+  "generated_at_wib": "2026-11-27T13:38:20.486697+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "best-flight-",
-      "task_label": "best-flight-",
+      "task_slug": "belajar-gptz",
+      "task_label": "belajar-gptz",
       "status": "kerja",
-      "last_update_epoch": 1795759921,
+      "last_update_epoch": 1795761318,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795754151,
-        "latest_round_mtime": 1795759921,
+        "dir_mtime": 1795760785,
+        "latest_round_mtime": 1795761399,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -35,20 +35,20 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795761132,
+        "latest_round_mtime": 1795761399,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 94,
       "quota": {
-        "percent": 95,
+        "percent": 94,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 94
     },
     {
       "id": "deepseek",
@@ -67,40 +67,40 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 64,
+      "quota_percent": 61,
       "quota": {
-        "percent": 64,
+        "percent": 61,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 64
+      "quotas": 61
     },
     {
       "id": "hydrogen",
       "role": "Hydrogen",
       "role_short": "HYDR",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795746114,
+      "task_slug": "belajar-gptz",
+      "task_label": "belajar-gptz",
+      "status": "kerja",
+      "last_update_epoch": 1795761265,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795754524,
-        "latest_round_mtime": 1795754614,
+        "dir_mtime": 1795760785,
+        "latest_round_mtime": 1795761399,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 95,
+      "quota_percent": 94,
       "quota": {
-        "percent": 95,
+        "percent": 94,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 95
+      "quotas": 94
     },
     {
       "id": "claude",
@@ -135,24 +135,24 @@
       "task_slug": "belajar-gptz",
       "task_label": "belajar-gptz",
       "status": "kerja",
-      "last_update_epoch": 1795760785,
+      "last_update_epoch": 1795761379,
       "progress": null,
       "raw": {
         "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795761132,
+        "latest_round_mtime": 1795761399,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 64,
+      "quota_percent": 61,
       "quota": {
-        "percent": 64,
+        "percent": 61,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 64
+      "quotas": 61
     },
     {
       "id": "qwen",
@@ -171,40 +171,40 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 64,
+      "quota_percent": 61,
       "quota": {
-        "percent": 64,
+        "percent": 61,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 64
+      "quotas": 61
     },
     {
       "id": "tencent",
       "role": "Tencent",
       "role_short": "TENC",
-      "task_slug": "belajar-gptz",
-      "task_label": "belajar-gptz",
-      "status": "kerja",
-      "last_update_epoch": 1795761132,
+      "task_slug": "best-flight-",
+      "task_label": "best-flight-",
+      "status": "diam",
+      "last_update_epoch": 1795750392,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795761132,
+        "dir_mtime": 1795754151,
+        "latest_round_mtime": 1795759921,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 64,
+      "quota_percent": 61,
       "quota": {
-        "percent": 64,
+        "percent": 61,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 64
+      "quotas": 61
     },
     {
       "id": "kimi",
@@ -213,47 +213,47 @@
       "task_slug": "belajar-gptz",
       "task_label": "belajar-gptz",
       "status": "kerja",
-      "last_update_epoch": 1795761017,
+      "last_update_epoch": 1795761399,
       "progress": null,
       "raw": {
         "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795761132,
+        "latest_round_mtime": 1795761399,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 64,
+      "quota_percent": 61,
       "quota": {
-        "percent": 64,
+        "percent": 61,
         "pool": "cmdc",
         "limiting": "weekly",
         "source": "cmdc /api/cmdc-usage"
       },
-      "quotas": 64
+      "quotas": 61
     }
   ],
   "events": [
-    {
-      "agent": "tencent",
-      "task": "belajar-gptzero-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795761132
-    },
     {
       "agent": "kimi",
       "task": "belajar-gptzero-01",
       "from": "",
       "to": "",
-      "time_epoch": 1795761017
+      "time_epoch": 1795761399
     },
     {
       "agent": "glm",
       "task": "belajar-gptzero-01",
       "from": "",
       "to": "",
-      "time_epoch": 1795760785
+      "time_epoch": 1795761379
+    },
+    {
+      "agent": "hydrogen",
+      "task": "belajar-gptzero-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795761265
     },
     {
       "agent": "neon",
@@ -278,15 +278,15 @@
     }
   ],
   "quotas": {
-    "neon": 95,
-    "deepseek": 64,
-    "hydrogen": 95,
+    "neon": 94,
+    "deepseek": 61,
+    "hydrogen": 94,
     "claude": 100,
-    "glm": 64,
-    "qwen": 64,
-    "tencent": 64,
-    "kimi": 64
+    "glm": 61,
+    "qwen": 61,
+    "tencent": 61,
+    "kimi": 61
   },
-  "quota_updated_at": "2026-11-27T13:33:11.117183+07:00",
+  "quota_updated_at": "2026-11-27T13:38:20.486697+07:00",
   "quota_errors": []
 }
