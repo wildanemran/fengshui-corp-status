@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795746489,
-  "generated_at_wib": "2026-11-27T09:28:09.281066+07:00",
+  "generated_at": 1795746789,
+  "generated_at_wib": "2026-11-27T09:33:09.327127+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
+      "task_slug": "best-flight-",
+      "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795746327,
+      "last_update_epoch": 1795746755,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746327,
-        "latest_round_mtime": 1795746328,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746755,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -34,8 +34,8 @@
       "last_update_epoch": 1795745994,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746284,
-        "latest_round_mtime": 1795746285,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746755,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -86,8 +86,8 @@
       "last_update_epoch": 1795746114,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746327,
-        "latest_round_mtime": 1795746328,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -135,11 +135,11 @@
       "task_slug": "news-image-2",
       "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795746328,
+      "last_update_epoch": 1795746679,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746327,
-        "latest_round_mtime": 1795746328,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -158,14 +158,14 @@
       "id": "qwen",
       "role": "Qwen",
       "role_short": "QWEN",
-      "task_slug": "best-flight-",
-      "task_label": "best-flight-",
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
       "status": "kerja",
-      "last_update_epoch": 1795746141,
+      "last_update_epoch": 1795746618,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746284,
-        "latest_round_mtime": 1795746285,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -190,8 +190,8 @@
       "last_update_epoch": 1795746138,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746327,
-        "latest_round_mtime": 1795746328,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746751,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -216,8 +216,8 @@
       "last_update_epoch": 1795745891,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795746284,
-        "latest_round_mtime": 1795746285,
+        "dir_mtime": 1795746539,
+        "latest_round_mtime": 1795746755,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,46 +235,46 @@
   ],
   "events": [
     {
+      "agent": "muse",
+      "task": "best-flight-game-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746755
+    },
+    {
+      "agent": "muse",
+      "task": "news-image-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746751
+    },
+    {
       "agent": "glm",
       "task": "news-image-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746328
+      "time_epoch": 1795746679
     },
     {
       "agent": "glm",
       "task": "best-flight-game-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746285
+      "time_epoch": 1795746636
+    },
+    {
+      "agent": "qwen",
+      "task": "news-image-20261126",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795746618
     },
     {
       "agent": "qwen",
       "task": "best-flight-game-20261126",
       "from": "",
       "to": "",
-      "time_epoch": 1795746141
-    },
-    {
-      "agent": "tencent",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746138
-    },
-    {
-      "agent": "qwen",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746135
-    },
-    {
-      "agent": "tencent",
-      "task": "best-flight-game-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795746121
+      "time_epoch": 1795746597
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 71,
     "kimi": 71
   },
-  "quota_updated_at": "2026-11-27T09:28:09.281066+07:00",
+  "quota_updated_at": "2026-11-27T09:33:09.327127+07:00",
   "quota_errors": []
 }
