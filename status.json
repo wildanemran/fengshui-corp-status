@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795753989,
-  "generated_at_wib": "2026-11-27T11:33:09.891902+07:00",
+  "generated_at": 1795754304,
+  "generated_at_wib": "2026-11-27T11:38:24.478146+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,10 +10,10 @@
       "task_slug": "best-flight-",
       "task_label": "best-flight-",
       "status": "kerja",
-      "last_update_epoch": 1795753366,
+      "last_update_epoch": 1795754151,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795753267,
+        "dir_mtime": 1795754151,
         "latest_round_mtime": 1795753366,
         "has_result": false,
         "last_error": null,
@@ -34,7 +34,7 @@
       "last_update_epoch": 1795750502,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795753267,
+        "dir_mtime": 1795754151,
         "latest_round_mtime": 1795753366,
         "has_result": false,
         "last_error": null,
@@ -138,7 +138,7 @@
       "last_update_epoch": 1795750876,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795753267,
+        "dir_mtime": 1795754151,
         "latest_round_mtime": 1795753366,
         "has_result": false,
         "last_error": null,
@@ -190,7 +190,7 @@
       "last_update_epoch": 1795750392,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795753267,
+        "dir_mtime": 1795754151,
         "latest_round_mtime": 1795753366,
         "has_result": false,
         "last_error": null,
@@ -216,7 +216,7 @@
       "last_update_epoch": 1795750351,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795753267,
+        "dir_mtime": 1795754151,
         "latest_round_mtime": 1795753366,
         "has_result": false,
         "last_error": null,
@@ -287,6 +287,6 @@
     "tencent": 67,
     "kimi": 67
   },
-  "quota_updated_at": "2026-11-27T11:33:09.891902+07:00",
+  "quota_updated_at": "2026-11-27T11:38:24.478146+07:00",
   "quota_errors": []
 }
