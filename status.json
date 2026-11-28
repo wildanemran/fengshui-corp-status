@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795835891,
-  "generated_at_wib": "2026-11-28T10:18:11.909873+07:00",
+  "generated_at": 1795836207,
+  "generated_at_wib": "2026-11-28T10:23:27.620772+07:00",
   "agents": [
     {
       "id": "muse",
@@ -28,40 +28,40 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "belajar-indo",
-      "task_label": "belajar-indo",
-      "status": "diam",
-      "last_update_epoch": 1795824991,
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
+      "status": "kerja",
+      "last_update_epoch": 1795836121,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795825171,
-        "latest_round_mtime": 1795824991,
+        "dir_mtime": 1795835976,
+        "latest_round_mtime": 1795836190,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 94,
+      "quota_percent": 93,
       "quota": {
-        "percent": 94,
+        "percent": 93,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 94
+      "quotas": 93
     },
     {
       "id": "deepseek",
       "role": "DeepSeek",
       "role_short": "DPSK",
-      "task_slug": "belajar-manu",
-      "task_label": "belajar-manu",
-      "status": "diam",
-      "last_update_epoch": 1795710836,
+      "task_slug": "turkey-plann",
+      "task_label": "tur-planning",
+      "status": "kerja",
+      "last_update_epoch": 1795836197,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795711465,
-        "latest_round_mtime": 1795712237,
+        "dir_mtime": 1795835976,
+        "latest_round_mtime": 1795836197,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 94,
+      "quota_percent": 93,
       "quota": {
-        "percent": 94,
+        "percent": 93,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 94
+      "quotas": 93
     },
     {
       "id": "claude",
@@ -132,14 +132,14 @@
       "id": "glm",
       "role": "GLM",
       "role_short": "GLM",
-      "task_slug": "belajar-gptz",
-      "task_label": "belajar-gptz",
-      "status": "diam",
-      "last_update_epoch": 1795761884,
+      "task_slug": "news-image-2",
+      "task_label": "news-image-2",
+      "status": "kerja",
+      "last_update_epoch": 1795836190,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795762080,
+        "dir_mtime": 1795835976,
+        "latest_round_mtime": 1795836190,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -210,14 +210,14 @@
       "id": "kimi",
       "role": "Kimi",
       "role_short": "KIMI",
-      "task_slug": "belajar-gptz",
-      "task_label": "belajar-gptz",
-      "status": "diam",
-      "last_update_epoch": 1795761399,
+      "task_slug": "turkey-plann",
+      "task_label": "tur-planning",
+      "status": "kerja",
+      "last_update_epoch": 1795836172,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795762080,
+        "dir_mtime": 1795835976,
+        "latest_round_mtime": 1795836197,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,58 +235,58 @@
   ],
   "events": [
     {
+      "agent": "deepseek",
+      "task": "turkey-planning-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795836197
+    },
+    {
+      "agent": "glm",
+      "task": "news-image-20261127",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795836190
+    },
+    {
+      "agent": "glm",
+      "task": "turkey-planning-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795836189
+    },
+    {
+      "agent": "kimi",
+      "task": "turkey-planning-01",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795836172
+    },
+    {
+      "agent": "kimi",
+      "task": "news-image-20261127",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795836171
+    },
+    {
       "agent": "neon",
-      "task": "belajar-indonesia-05",
+      "task": "news-image-20261127",
       "from": "",
       "to": "",
-      "time_epoch": 1795824991
-    },
-    {
-      "agent": "muse",
-      "task": "news-image-20261126",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795804204
-    },
-    {
-      "agent": "muse",
-      "task": "flight-shader-impl-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795803599
-    },
-    {
-      "agent": "muse",
-      "task": "flight-shader-consult-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795801316
-    },
-    {
-      "agent": "claude",
-      "task": "flight-shader-consult-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795801253
-    },
-    {
-      "agent": "muse",
-      "task": "flight-shader-consult-01",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795801160
+      "time_epoch": 1795836121
     }
   ],
   "quotas": {
-    "neon": 94,
+    "neon": 93,
     "deepseek": 59,
-    "hydrogen": 94,
+    "hydrogen": 93,
     "claude": 96,
     "glm": 59,
     "qwen": 59,
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T10:18:11.909873+07:00",
+  "quota_updated_at": "2026-11-28T10:23:27.620772+07:00",
   "quota_errors": []
 }
