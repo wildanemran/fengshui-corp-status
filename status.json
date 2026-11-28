@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": 1795824508,
-  "generated_at_wib": "2026-11-28T07:08:28.019286+07:00",
+  "generated_at": 1795824829,
+  "generated_at_wib": "2026-11-28T07:13:49.132894+07:00",
   "agents": [
     {
       "id": "muse",
       "role": "Muse",
       "role_short": "MUSE",
-      "task_slug": "news-image-2",
-      "task_label": "news-image-2",
-      "status": "diam",
-      "last_update_epoch": 1795804204,
+      "task_slug": "belajar-indo",
+      "task_label": "belajar-indo",
+      "status": "kerja",
+      "last_update_epoch": 1795824755,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795802604,
-        "latest_round_mtime": 1795804204,
+        "dir_mtime": 1795824741,
+        "latest_round_mtime": 1795824755,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -28,14 +28,14 @@
       "id": "neon",
       "role": "Neon",
       "role_short": "NEON",
-      "task_slug": "belajar-gptz",
-      "task_label": "belajar-gptz",
-      "status": "diam",
-      "last_update_epoch": 1795760704,
+      "task_slug": "belajar-indo",
+      "task_label": "belajar-indo",
+      "status": "kerja",
+      "last_update_epoch": 1795824755,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795760785,
-        "latest_round_mtime": 1795762080,
+        "dir_mtime": 1795824741,
+        "latest_round_mtime": 1795824755,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -235,6 +235,13 @@
   ],
   "events": [
     {
+      "agent": "neon",
+      "task": "belajar-indonesia-05",
+      "from": "",
+      "to": "",
+      "time_epoch": 1795824755
+    },
+    {
       "agent": "muse",
       "task": "news-image-20261126",
       "from": "",
@@ -268,13 +275,6 @@
       "from": "",
       "to": "",
       "time_epoch": 1795801160
-    },
-    {
-      "agent": "muse",
-      "task": "flight-visual-02",
-      "from": "",
-      "to": "",
-      "time_epoch": 1795800657
     }
   ],
   "quotas": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T07:08:28.019286+07:00",
+  "quota_updated_at": "2026-11-28T07:13:49.132894+07:00",
   "quota_errors": []
 }
