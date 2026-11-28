@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795825103,
-  "generated_at_wib": "2026-11-28T07:18:23.214583+07:00",
+  "generated_at": 1795825391,
+  "generated_at_wib": "2026-11-28T07:23:11.364568+07:00",
   "agents": [
     {
       "id": "muse",
@@ -10,10 +10,10 @@
       "task_slug": "belajar-indo",
       "task_label": "belajar-indo",
       "status": "kerja",
-      "last_update_epoch": 1795824755,
+      "last_update_epoch": 1795825171,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795824741,
+        "dir_mtime": 1795825171,
         "latest_round_mtime": 1795824991,
         "has_result": false,
         "last_error": null,
@@ -34,7 +34,7 @@
       "last_update_epoch": 1795824991,
       "progress": null,
       "raw": {
-        "dir_mtime": 1795824741,
+        "dir_mtime": 1795825171,
         "latest_round_mtime": 1795824991,
         "has_result": false,
         "last_error": null,
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T07:18:23.214583+07:00",
+  "quota_updated_at": "2026-11-28T07:23:11.364568+07:00",
   "quota_errors": []
 }
