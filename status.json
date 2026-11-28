@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795824829,
-  "generated_at_wib": "2026-11-28T07:13:49.132894+07:00",
+  "generated_at": 1795825103,
+  "generated_at_wib": "2026-11-28T07:18:23.214583+07:00",
   "agents": [
     {
       "id": "muse",
@@ -14,7 +14,7 @@
       "progress": null,
       "raw": {
         "dir_mtime": 1795824741,
-        "latest_round_mtime": 1795824755,
+        "latest_round_mtime": 1795824991,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
@@ -31,24 +31,24 @@
       "task_slug": "belajar-indo",
       "task_label": "belajar-indo",
       "status": "kerja",
-      "last_update_epoch": 1795824755,
+      "last_update_epoch": 1795824991,
       "progress": null,
       "raw": {
         "dir_mtime": 1795824741,
-        "latest_round_mtime": 1795824755,
+        "latest_round_mtime": 1795824991,
         "has_result": false,
         "last_error": null,
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 94,
+      "quota_percent": 93,
       "quota": {
-        "percent": 94,
+        "percent": 93,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 94
+      "quotas": 93
     },
     {
       "id": "deepseek",
@@ -93,14 +93,14 @@
         "last_error_time": null,
         "progress": null
       },
-      "quota_percent": 94,
+      "quota_percent": 93,
       "quota": {
-        "percent": 94,
+        "percent": 93,
         "pool": "gemini",
         "limiting": "weekly",
         "source": "agy /usage"
       },
-      "quotas": 94
+      "quotas": 93
     },
     {
       "id": "claude",
@@ -239,7 +239,7 @@
       "task": "belajar-indonesia-05",
       "from": "",
       "to": "",
-      "time_epoch": 1795824755
+      "time_epoch": 1795824991
     },
     {
       "agent": "muse",
@@ -278,15 +278,15 @@
     }
   ],
   "quotas": {
-    "neon": 94,
+    "neon": 93,
     "deepseek": 59,
-    "hydrogen": 94,
+    "hydrogen": 93,
     "claude": 96,
     "glm": 59,
     "qwen": 59,
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T07:13:49.132894+07:00",
+  "quota_updated_at": "2026-11-28T07:18:23.214583+07:00",
   "quota_errors": []
 }
