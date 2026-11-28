@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": 1795829893,
-  "generated_at_wib": "2026-11-28T08:38:13.231886+07:00",
+  "generated_at": 1795830195,
+  "generated_at_wib": "2026-11-28T08:43:15.842326+07:00",
   "agents": [
     {
       "id": "muse",
@@ -9,7 +9,7 @@
       "role_short": "MUSE",
       "task_slug": "belajar-indo",
       "task_label": "belajar-indo",
-      "status": "kerja",
+      "status": "diam",
       "last_update_epoch": 1795825171,
       "progress": null,
       "raw": {
@@ -287,6 +287,6 @@
     "tencent": 59,
     "kimi": 59
   },
-  "quota_updated_at": "2026-11-28T08:38:13.231886+07:00",
+  "quota_updated_at": "2026-11-28T08:43:15.842326+07:00",
   "quota_errors": []
 }
